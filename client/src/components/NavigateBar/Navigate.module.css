@@ -1,0 +1,75 @@
+.contains {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #cfd4dc;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+  }
+  
+  .left-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .Link {
+    text-decoration: none;
+    color: #33323a;
+    font-weight: bold;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    margin-right: 10px;
+    font-family: 'american typewriter', serif;
+    margin-left: 40px;
+  }
+  
+  .Link:hover {
+    background-color: #c3c6cd;
+    text-decoration: underline overline double rgb(55, 55, 55);
+    text-shadow: 0.5px 0.5px 0.5px rgb(60, 60, 60);
+    color: rgb(123, 155, 179);
+  }
+  
+  .Search {
+    flex-grow: 1;
+    margin-left: 40px;
+    max-width: 600px;
+    font-family: 'american typewriter', serif;
+  }
+  
+  .Search input {
+    width: 100%;
+    height: 40px;
+    font-size: 1.2rem;
+    padding: 5px 10px;
+    font-family: 'american typewriter', serif;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .contains {
+      flex-wrap: wrap;
+      padding: 10px;
+    }
+  
+    .left-section {
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      gap: 10px;
+    }
+  
+    .Link {
+      margin-right: 0;
+    }
+  
+    .Search {
+      margin-top: 10px;
+      margin-left: 0;
+    }
+  }
+  

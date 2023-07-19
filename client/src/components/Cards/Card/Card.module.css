@@ -1,0 +1,53 @@
+.contains {
+  background-color: #c7d1dcd7;
+  border: 2px dashed #343434;
+  padding: 5px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+  width: 150px; /* Ajusta el ancho del contenedor según tus necesidades */
+}
+
+  .card {
+    width: 100px; /* Ajusta el ancho del contenedor de la card según tus necesidades */
+    height: 150px; /* Ajusta la altura del contenedor de la card según tus necesidades */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #f5f5f5;
+  }
+  
+  .Link {
+    display: inline-block;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .Link:hover {
+    transform: translateY(-2px);
+  }
+  
+  .flag {
+    width: 20%; /* Establece un ancho del 100% para ocupar todo el espacio disponible */
+    height: auto; /* Permite que la altura se ajuste automáticamente según el ancho */
+    object-fit: cover; /* Asegura que la imagen se ajuste proporcionalmente sin distorsión */
+    border: 2px dashed #343434;
+    aspect-ratio: 1/1;
+  }
+  
+  .country {
+    font-size: 0.8rem;
+    margin-top: 10px;
+    color: #343434;
+  }
+  
+  .continent {
+    font-size: 0.8rem;
+    margin-top: 5px;
+    color: #343434;
+  }
+  

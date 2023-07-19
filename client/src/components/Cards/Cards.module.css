@@ -1,0 +1,33 @@
+.contains {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 900px;
+  width: 930px;
+  margin-left: -85px; /* Ajusta el valor según tus preferencias */
+}
+
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Cambio a 5 columnas */
+    grid-gap: 3px; /* Espacio entre las cartas */
+    justify-content: center;
+    align-items: center;
+    background: rgba(114, 132, 162, 0.872);
+    height: 40%;
+    width: 95%;
+    border: 3px solid rgb(53, 53, 53);
+    margin-left: auto;
+  }
+  
+  .paginate {
+    display: flex;
+    flex-direction: row;
+    justify-content: row;
+    align-items: flex-end;
+    border-top: 50px;
+    padding-top: 50px;
+    width: 100%;
+  }
+  

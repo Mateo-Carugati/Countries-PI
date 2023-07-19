@@ -1,0 +1,48 @@
+.landing-page {
+  position: relative;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url('../../assets/tierra.mp4');
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  text-align: center;
+}
+
+.title {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  color: #e0e0e8;
+  -webkit-text-stroke: 1.5px rgb(17, 27, 48);
+  font-family: 'american typewriter', serif;
+  text-shadow: 0px 4px 6px #67779a;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #e0e0e8;
+  color: #1f1f21;
+  border: 3px double rgb(33, 51, 91);
+  padding: 1rem 2rem;
+  border-radius: 4px;
+  font-size: 1.2rem;
+  font-family: 'american typewriter', serif;
+}
+
+.cta-button:hover {
+  background-color: #cac9dc;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  filter: drop-shadow(0 0 0.75rem #306df0);
+}

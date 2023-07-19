@@ -1,0 +1,19 @@
+.contains {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    background-image: url("../../assets/home.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .filter {
+    margin-right: 20px;
+  }
+  
+  .cards {
+    flex-grow: 1;
+  }
+  

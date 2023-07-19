@@ -1,0 +1,44 @@
+.contains {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -150px;
+    margin-left: 300px;
+  }
+  
+  .buttonDistance {
+    margin-right: 10px;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ccc;
+    color: #292929;
+    border: 2px solid #1f1f1f;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 0;
+    font: bold;
+    font-family: 'american typewriter', serif;
+    -webkit-text-stroke: 1px #1f1f1f;
+  }
+  
+  .button:hover {
+    background-color: rgba(114, 132, 162, 0.872);
+    border-color: #1f1f1f;
+    box-shadow: #305dbf;
+    color: whitesmoke;
+    -webkit-text-stroke: 1px whitesmoke;
+  }
+  
+  .number {
+    font-size: 1.7rem;
+    margin: 0 10px;
+    font-weight: bold;
+    color: #6c8db5;
+    -webkit-text-stroke: 1.5px #1f1f1f;
+    text-shadow: 1px 1px 1px 1px #305dbf;
+    font-family: 'american typewriter', serif;
+  }
+  
